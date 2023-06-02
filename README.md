@@ -1,4 +1,3 @@
-Sure! Here's an example of a README file for running a Flask application:
 
 # Flask Application
 
