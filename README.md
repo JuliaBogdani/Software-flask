@@ -20,13 +20,13 @@ This repository contains a Flask web application that provides [describe what th
 2. Navigate to the project directory:
 
    ```shell
-   $ cd flask-application
+   $ cd Software-flask
    ```
 
 3. Install the required dependencies:
 
    ```shell
-   $ pip install -r requirements.txt
+   $ pip install flask
    ```
 
 4. Set up the database:
@@ -44,7 +44,7 @@ This repository contains a Flask web application that provides [describe what th
    - Execute the following command to start the Flask development server:
 
      ```shell
-     $ python app.py
+     $ flask run
      ```
 
 7. Accessing the Application:
@@ -52,29 +52,7 @@ This repository contains a Flask web application that provides [describe what th
    - Once the server is running, open a web browser and enter the following URL:
 
      ```
-     http://localhost:5000
+     http://localhost:5000 or http://127.0.0.1:5000
      ```
 
    - The application should now be running locally on your machine.
-
-## Deployment
-
-- [Provide instructions on how to deploy the application to a production environment, if applicable]
-- [Include any necessary configuration files or deployment scripts]
-
-## Contributing
-
-- [Include guidelines for contributing to the project, if applicable]
-- [Specify any coding standards or contribution workflows]
-
-## License
-
-- [Specify the license under which the project is distributed]
-
-## Acknowledgments
-
-- [Provide acknowledgments or credits to any external dependencies, tutorials, or resources used in the project]
-
-## Contact
-
-- [Provide contact information for any inquiries or support]
