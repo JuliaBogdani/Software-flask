@@ -1,7 +1,7 @@
 
 # Flask Application
 
-Flask Event Calendar Application
+Flask Event Calendar Application.
 This repository contains a Flask web application that functions as a calendar for events. The application allows users to register their events, view their past events, and provides a page with all events. It also includes a user profile page and an event details page that provides additional information about specific events.
 
 ## Prerequisites
