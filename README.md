@@ -55,6 +55,8 @@ Attendance:
 - For each event, multiple users can attend, and multiple events can have attendees. 
 - The table records the user ID and event ID for attendance tracking.
 
+To configure the project database, the project folder must first contain file.mwb. Open this file and the ERD diagram will appear. This diagram is made by the forward engineer and we expect all the steps to pass automatically.
+
 
 5. Configuration:
 
