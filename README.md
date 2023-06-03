@@ -32,9 +32,12 @@ This repository contains a Flask web application that functions as a calendar fo
 4. Set up the database:
 
 Event Registration: 
-•	Users can register events on the platform. 
-•	The Event Table stores event information, including a unique ID, user ID (the person who created the event), name, date, location, time, information, player number      (playerNR), type of event, and timestamp of the last update.
-•	Each event is associated with a user who created it.
+
+- Users can register events on the platform. 
+
+- The Event Table stores event information, including a unique ID, user ID (the person who created the event), name, date, location, time, information, player number      (playerNR), type of event, and timestamp of the last update.
+
+- Each event is associated with a user who created it.
 
 User Registration: 
 •	Users can create accounts on the platform. 
