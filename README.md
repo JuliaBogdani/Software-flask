@@ -34,27 +34,26 @@ This repository contains a Flask web application that functions as a calendar fo
 Event Registration: 
 
 - Users can register events on the platform. 
-
 - The Event Table stores event information, including a unique ID, user ID (the person who created the event), name, date, location, time, information, player number      (playerNR), type of event, and timestamp of the last update.
-
 - Each event is associated with a user who created it.
 
 User Registration: 
-•	Users can create accounts on the platform. 
-•	The User Table stores user information, including a unique ID, name, last name, email, password, birthday, and photo name. 
-•	Users can authenticate using their email and password to access the platform. 
-•	A connection is established between the user and the event they create. 
+
+- Users can create accounts on the platform. 
+- The User Table stores user information, including a unique ID, name, last name, email, password, birthday, and photo name. 
+- Users can authenticate using their email and password to access the platform. 
+- A connection is established between the user and the event they create. 
 
 Messaging: 
-•	Users can exchange messages related to events. 
-•	The Messages Table facilitates a many-to-many relationship between users and events.
-•	Each message is associated with a user who wrote it and an event it belongs to. 
+- Users can exchange messages related to events. 
+- The Messages Table facilitates a many-to-many relationship between users and events.
+- Each message is associated with a user who wrote it and an event it belongs to. 
 
 Attendance: 
-•	Users can indicate their attendance at events. 
-•	The Attendance Table establishes a many-to-many relationship between users and events.
-•	For each event, multiple users can attend, and multiple events can have attendees. 
-•	The table records the user ID and event ID for attendance tracking.
+- Users can indicate their attendance at events. 
+- The Attendance Table establishes a many-to-many relationship between users and events.
+- For each event, multiple users can attend, and multiple events can have attendees. 
+- The table records the user ID and event ID for attendance tracking.
 
 
 5. Configuration:
